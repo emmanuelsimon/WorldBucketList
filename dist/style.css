@@ -5,4 +5,10 @@
 
 #macarte {
     min-height: 90vh;
+    height: 100%;
+}
+
+#menu {
+    overflow-y: auto;
+    height: 100%;
 }

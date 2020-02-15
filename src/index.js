@@ -1,9 +1,10 @@
 import "leaflet";
 import * as $ from  "jquery";
 import "bootstrap";
-import {initMap} from "./maps";
-
+import * as maps from "./maps";
+import {buildAllDreams} from "./dream";
 
 $(function() {
-    initMap();
+    maps.initMap();
+    buildAllDreams();
 });
